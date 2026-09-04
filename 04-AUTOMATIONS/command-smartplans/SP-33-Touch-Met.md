@@ -1,0 +1,56 @@
+# SmartPlan: `SP-33 Touch (Met)`
+
+## Purpose
+MREA's 33 Touch: 33 systematic touches per year to everyone in the Met database. Keller's math: a well-run 33 Touch produces roughly one closed transaction (a sale or a referral) per 12 Met contacts per year. The annual mix: 18 emails or mailers, 8 phone calls or texts, 3 items of value, 2 personal notes, 2 holiday touches, plus birthday and home anniversary calls (which are separate Command tasks driven by the contact's dates and count toward the 33).
+
+## Entry trigger
+- Tag `33-Touch` added (by `SP-8x8 New Contact` at graduation, by `SP-Past Client Program` at month 12, or by the VA when tagging an existing contact `Met` in SOP-02). The plan is calendar-based: set it to start on the 1st of the next month so the whole database is on the same rhythm. Repeat yearly.
+
+## Exit conditions
+- Contact becomes an active client: keep them in the plan; the plan is background, the transaction is foreground.
+- Contact tagged `Dead` or unsubscribed: remove from plan.
+- Contact's relationship changes to `Haven't Met` (rare; a cold list mistakenly tagged): move to `SP-12 Direct (Haven't Met)`.
+
+## The 12-month calendar (33 touches)
+
+| Step | Day offset | Channel | Subject or purpose | Full copy | Owner |
+|---|---|---|---|---|---|
+| 1 | Jan 5 (Day 0) | Email | Subject: [MARKET] in 2026: what actually happened, and what's next | Hi [First Name], happy new year. Here's my one-page recap of the [MARKET] market last year: median price [X], sales volume [Y], days on market [Z], and what I expect this year in three bullets. Real numbers, no hype. If you're curious what your own home did last year, reply "my home" and I'll send a quick range. Charles Brewer, Keller Williams, [PHONE] | VA fills numbers, Charles approves |
+| 2 | Jan 15 | Mail task | Annual home value letter | Task: mail the Home Value Update letter with three nearby sales and an estimated range, printed on letterhead, hand-signed. Note: the range is Charles's; VA never invents it. | Charles values, VA mails |
+| 3 | Jan 26 | Call task | Q1 check-in call (call 1 of 8) | Script: "Hi [First Name], Charles. Sent you a home value letter, wanted to make sure it landed and see if anything's changed for you this year. Anyone you know planning a move?" | Charles |
+| 4 | Feb 9 | Email | Subject: The one repair that returns the most in [MARKET] | Hi [First Name], every year I look at what sellers here spent before listing and what it earned back. This year's winner was [item], at roughly [X]% return. Also worth doing: [two more]. Not worth it: [one]. Full list at [link]. Use it whether you're selling in six months or six years. Charles | VA drafts from the annual list, Charles approves |
+| 5 | Feb 20 | Text | Quick text (text 2 of 8) | Hi [First Name], Charles. Quick one: rates moved to [X]% this week. If you or anyone you know has been waiting on that, happy to connect them with my lender for a no-pressure look. -Charles | VA sends after review |
+| 6 | Mar 6 | Email | Subject: Spring market preview, [MARKET] | Hi [First Name], the spring market starts earlier than most people think. Listings that hit in [Month] have averaged [X] fewer days on market and [Y]% more showings than summer listings here. If a move is even a maybe this year, the prep conversation should happen in the next few weeks. No obligation, and I'll tell you if waiting is smarter. [CALENDLY LINK]. Charles | VA fills stats, Charles approves |
+| 7 | Mar 20 | Mail task | Item of value 1: [MARKET] Spring Home Maintenance Checklist | Task: mail the printed checklist (gutters, HVAC, irrigation, seal, roof) with sticky note "[First Name], the spring list. Charles". | VA |
+| 8 | Apr 3 | Email | Subject: This quarter in [MARKET] | Hi [First Name], Q1 wrap-up: [3 bullets: prices, inventory, days on market] and one story from a recent closing that shows what buyers are doing right now. Reading the market once a quarter is enough for most people; that's what this is for. Charles | VA drafts, Charles approves |
+| 9 | Apr 17 | Call task | Spring call (call 3 of 8) | Script: "Hi [First Name], Charles. Spring's here and I'm calling my favorite people. Anything on your mind about the house? Anyone you know thinking about moving?" | Charles |
+| 10 | May 1 | Email | Subject: Happy Mother's Day week, and a favor | Hi [First Name], no market talk today. If someone in your world has been good to you this year, tell them this week. And a small favor: my business runs on introductions from people like you. If a name comes to mind of someone thinking about a home, a simple text intro means the world. Thank you. Charles Brewer, [PHONE] | Charles approves |
+| 11 | May 15 | Mail task | Personal note 1 | Task: Charles handwrites a note referencing something specific about this contact (from Command notes: job, kids, hobby, last conversation). VA prepares the list with a one-line prompt per person. | Charles writes, VA mails |
+| 12 | May 29 | Text | Text (text 4 of 8) | Hi [First Name], Charles. Just sold a home near you at [PRICE] in [X] days. If you ever wonder what that means for yours, I'll pull real numbers, no strings. -Charles | VA drafts with real sale, Charles approves |
+| 13 | Jun 12 | Email | Subject: Summer in [MARKET]: the events list | Hi [First Name], the summer list is out: [5 local events, farmers markets, concerts, festivals with dates and links]. Forward to anyone new in town. And if you know someone moving here this summer, I'd love to help them land well. Charles | VA compiles, Charles approves |
+| 14 | Jun 26 | Call task | Mid-year call (call 5 of 8) | Script: "Hi [First Name], Charles. Half the year gone. Checking in, no agenda. How's the house treating you? Anyone in your circle talking about moving?" | Charles |
+| 15 | Jul 2 | Email | Subject: Happy 4th, and the 2026 mid-year numbers | Hi [First Name], happy Independence Day. Quick mid-year check on [MARKET]: median price [X] (vs [Y] in January), inventory [Z], my read on the second half in two sentences. Enjoy the long weekend. Charles | VA fills, Charles approves |
+| 16 | Jul 17 | Mail task | Item of value 2: Local favorites guide | Task: mail the "Charles's [MARKET] Favorites" card (coffee, tacos, date night, hardware store, dog park). Sticky note: "[First Name], my list. Argue with me about it. Charles". | VA |
+| 17 | Jul 31 | Text | Text (text 6 of 8) | Hi [First Name], Charles. Question for you: what's one thing you'd change about your house if money were no object? I'm collecting answers for a post (no names). -Charles | VA sends, Charles replies to responses |
+| 18 | Aug 14 | Email | Subject: Back to school, back to the market | Hi [First Name], the fall market tends to be quieter and more serious in [MARKET]: fewer showings, more decided buyers. If you've been thinking about a fall move, the prep window is now. If not, here's the fall maintenance list to keep the house happy: [link]. Charles | VA drafts, Charles approves |
+| 19 | Aug 28 | Call task | Late-summer call (call 7 of 8) | Script: "Hi [First Name], Charles. Before fall gets busy: anything I can help with? Contractor referral, a question about a neighbor's sale, anything." | Charles |
+| 20 | Sep 11 | Email | Subject: Q3 in [MARKET], and one thing I got wrong | Hi [First Name], Q3 numbers: [3 bullets]. One prediction I made in January that missed: [honest one-liner and what it means]. I'd rather be useful than always right. Charles | VA fills, Charles writes the miss |
+| 21 | Sep 25 | Mail task | Item of value 3: Fall/Winter Home Prep Checklist | Task: mail the printed checklist with a sticky note signed by Charles. | VA |
+| 22 | Oct 9 | Email | Subject: Pumpkin patches, cider, and a client appreciation invite | Hi [First Name], two things. First, the fall fun list for [MARKET]: [3 to 5 links]. Second, you're invited to my client appreciation [event] on [date] at [place]. Bring the family. RSVP at [link] so I get the headcount right. Charles | VA compiles, Charles approves |
+| 23 | Oct 23 | Text | Text (text 8 of 8) | Hi [First Name], Charles. Reminder: [event] is [date]. Would love to see you. Reply YES with a headcount and I'll save your spot. -Charles | VA |
+| 24 | Nov 6 | Email | Subject: The one-page year-end tax and home checklist | Hi [First Name], before the year closes: [5 items: property tax deadline, homestead exemption check, mortgage interest statement, energy credits, insurance review]. Not tax advice, just the checklist my CPA and I go through. Your CPA has the final word. Charles | VA drafts, Charles approves |
+| 25 | Nov 13 | Mail task | Personal note 2 | Task: Charles handwrites a gratitude note. VA preps the list. | Charles writes, VA mails |
+| 26 | Nov 20 | Email | Subject: Thankful for you | Hi [First Name], short one this week. Thank you for being part of my world this year. Whether we talked once or ten times, I'm grateful. If I can help you or someone you love with anything home-related in the year ahead, it would be a privilege. Happy Thanksgiving. Charles Brewer, Keller Williams | Charles approves |
+| 27 | Nov 24 | Mail task | Holiday touch 1: Thanksgiving card | Task: mail the printed Thanksgiving card, hand-signed. | VA prints, Charles signs |
+| 28 | Dec 4 | Email | Subject: Holiday lights map and the year in review | Hi [First Name], the [MARKET] holiday lights map is here: [link]. Also, my year-in-review: [X] families helped, [Y] referrals from friends like you, and the story I'll remember most. Thank you for being part of it. Charles | VA compiles, Charles approves |
+| 29 | Dec 12 | Mail task | Holiday touch 2: Holiday card | Task: mail the holiday card with a family or team photo, hand-signed. | VA prints, Charles signs |
+| 30 | Dec 19 | Text | Holiday text | Hi [First Name], Charles. Happy holidays to you and yours. Thank you for a great year. If anything home-related comes up over the break, I'm around. -Charles | VA sends |
+| 31 | Dec 29 | Call task | Year-end call (bonus call) | Script: "Hi [First Name], Charles. Closing out the year by calling the people I'm grateful for. Any plans for the house in the new year?" | Charles |
+| 32 | Birthday (contact date) | Call task | Birthday call | Task from Command birthday field: Charles calls or texts. Script: "Happy birthday, [First Name]. Charles Brewer. Hope it's a good one." Card mailed by VA the week before. | Charles calls, VA mails card |
+| 33 | Home anniversary (contact date) | Call task + Text | Anniversary touch | Text if call misses: Hi [First Name], Charles. [X] years ago this week you got the keys to [ADDRESS]. Still one of my favorite closings. Happy home anniversary. -Charles | Charles |
+
+## Notes
+- Dates are anchored to Jan 5 as Day 0. If a contact enters mid-year, Command starts at the plan's Day 0; set the plan's start date to the next Jan 5 and let the VA send the current month's touches manually until then (SOP-09).
+- Every email includes a one-click reply prompt because replies are the point; the VA logs every reply as a note and flags anything that sounds like a move to Charles.
+- Mail steps are tasks; the VA batches them monthly with the mailing house (SOP-09).
+- Fair Housing: the events list and favorites guide describe places, never people.
