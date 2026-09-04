@@ -35,7 +35,9 @@ Worked example (placeholder numbers, replace with yours):
 | I. Closed sides needed | E ÷ H | ________ |
 | J. Seller sides (target 50–60% of sides, MREA "lead with listings") | I × 0.55 | ________ |
 | K. Buyer sides | I − J | ________ |
-| L. Investor sides (subset of J and K, target 15–25%) | I × 0.20 | ________ |
+| L. Flip sides (subset of J and K, target 15–25%) | I × 0.20 | ________ |
+
+A partner-funded flip counts as **two sides** in this model: the acquisition (buyer side, where a commission is offered, otherwise the project fee per agreement) and the resale (listing side). One flip a month is ~24 sides a year, which is why the capital partner program is the fastest route to "lead with listings."
 
 Example: $415,000 ÷ ($400,000 × 2.5% = $10,000) = **42 sides** → ~23 seller sides, ~19 buyer sides, of which ~8 are investors (who often buy and sell repeatedly).
 
@@ -101,3 +103,4 @@ From the example above, the activity that produces the result:
 3. Is the Met database growing by 25/week? Is 33 Touch actually executing (check Command SmartPlan step completion)?
 4. Are seller sides ≥ 50%? If not, shift lead gen toward seller sources (12 Direct, circle prospecting, home-value funnel).
 5. Update the assumptions in the calculator with **actual** ratios from the last 90 days.
+6. Deal engine: candidates → underwritten → presented → funded. Is the constraint deal flow or partner capital? (see `07-INVESTOR-SYSTEM/deal-sourcing-engine.md` §6)

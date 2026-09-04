@@ -30,22 +30,28 @@ Lost at any stage → Status tag `Dead` or `Nurture`, Opportunity archived with 
 | `Under Contract` | Executed contract | Charles | `SP-Buyer Under Contract`; milestone tracker (`SOP-07`) |
 | `Closed` | Funded and recorded | VA | Z-09: past client program, gift, review, anniversary date set |
 
-## 3. Investor pipeline
+## 3. Investor (Capital Partner) pipeline
+
+One Opportunity per partner per deal. Deals themselves are tracked on the Deal Board sheet until a partner commits (`07-INVESTOR-SYSTEM/deal-sourcing-engine.md`).
 
 | Stage | What must be true | Owner | Triggers |
 |---|---|---|---|
-| `Cultivate` | Investor intent, no criteria call yet | Zap or VA | Investor guide email; criteria call booking link |
+| `Cultivate` | Capital partner intent, no criteria call yet | Zap or VA | `SP-Speed to Lead` with the sample Deal Memo attached; `Tier-3` |
 | `Criteria Call` | Call booked | VA | `CB Investor Analyst` prep from any known info |
-| `Deal Alerts On` | Buy Box completed in custom fields | Charles | Tag `Investor-Deal-Alerts`; `SP-Investor Deal Alerts` (biweekly, Z-12) |
-| `Analyzing Deal` | A specific property is under review | Charles | Deal Snapshot produced (`07-INVESTOR-SYSTEM/deal-analysis-template.md`) within 24h |
-| `Offer Written` | Offer submitted | Charles | 24h follow-up |
-| `Under Contract` | Executed | Charles | `SP-Buyer Under Contract` (investor variant notes) |
-| `Closed` | Funded | VA | Past client program + **investor stays in `Deal Alerts On`**: create a new Opportunity in `Repeat` |
-| `Repeat` | Closed once, still buying | VA | Quarterly portfolio review touch; next deal creates a new Opportunity at `Analyzing Deal` |
+| `Partner Onboarded` | Capital Partner Profile complete, onboarding packet sent | VA | Tag `Capital-Partner`; tier tag set by Charles; `SP-Capital Partner Program`; docs request (proof of funds, buyer rep agreement) |
+| `Deal Presented` | A Deal Memo was sent to this partner | Z-12 / VA | 48-hour window tasks: Charles call, 24h reminder text |
+| `Deal Committed` | Partner replied "I'm in" in writing and Charles confirmed | Charles | Attorney and title engaged; EMD instructions; Deal Board row → `Funded` |
+| `Acquisition Under Contract` | Purchase contract executed | Charles | `SP-Buyer Under Contract` (offsets adjusted); inspection walk with contractor; wire-confirmation call task |
+| `Rehab` | Closed on the purchase | Charles | Project Tracker created; Z-15 Friday Project Update tasks; milestone texts |
+| `Listed` | Finished flip live on MLS at the Maximum Exposure Standard | VA | Full seller system: Z-06, Z-07, Z-08 with reports sent to the partner |
+| `Sold` | Resale funded | VA | Z-16: distribution statement task (5 business days), distribution call, review request, gift, `SP-Past Client Program` |
+| `Repeat` | "Next deal" call held, capital availability date known | Charles | Stays on `SP-Capital Partner Program`; first look on the next matching deal; new Opportunity created at `Deal Presented` when it happens |
+
+Partner passes on a deal → Opportunity back to `Partner Onboarded` with a note on why. Three consecutive passes → Charles re-tunes the profile or re-tiers.
 
 ## 4. Pipeline hygiene rules
 
 1. Every Opportunity has a **next task with a due date**. No task = the VA creates a "Charles: decide next step" task.
-2. Stage age limits: `Appointment Set`/`Consult Set` > 14 days without a met appointment → VA flags in huddle. `Active` listing at Day 14 and Day 30 → price/marketing review meeting (see `05-SELLER-SYSTEM/listing-launch-playbook.md`). `Analyzing Deal` > 7 days → Charles decides go/no-go.
+2. Stage age limits: `Appointment Set`/`Consult Set` > 14 days without a met appointment → VA flags in huddle. `Active` listing at Day 14 and Day 30 → price/marketing review meeting (see `05-SELLER-SYSTEM/listing-launch-playbook.md`). `Deal Presented` > 48 hours without a reply → VA moves to Tier-2 alert per the journey. `Rehab` with no Friday update sent → escalate in Monday huddle.
 3. Weekly pipeline review (Friday): count by stage, conversion between stages, expected GCI in `Under Contract`. These are scorecard lines.
 4. Commission and expected close date are filled in at `Under Contract` so the scorecard's "pending GCI" is real.

@@ -11,7 +11,8 @@ If another document disagrees with this one, this one wins.
 | Brand site | charlesbrewer.guru (personal funnel site) |
 | Brokerage | Keller Williams (Command is the KW CRM) |
 | Team today | Charles (agent / rainmaker) + 1 Virtual Assistant ("VA") |
-| Client types | Buyers, Sellers, Investors |
+| Client types | Buyers, Sellers, Capital Partners (fix & flip investors) |
+| Investor model | **Deal-first.** Charles sources and underwrites fix & flip deals, capital partners fund them, Charles manages the project and lists the finished flip. He brings the deal, they bring the capital. |
 | Service promise | "White glove": every client knows what happens next, before they have to ask |
 | Model | The Millionaire Real Estate Agent (MREA) — Gary Keller |
 | Content channel now | Social media (Instagram, Facebook, TikTok, LinkedIn, Google Business Profile) |
@@ -33,7 +34,8 @@ Assumptions we are working under (change here if wrong):
 | Website / funnel | **charlesbrewer.guru** | Landing pages + forms → Command |
 | Design | **Command Designs** first, **Canva** when Designs can't | Brand kit lives in Canva |
 | Short video edit | **CapCut** | Reels / Shorts / TikTok |
-| Listing media | Pro photographer w/ drone + **Matterport or Zillow 3D Home** + floor plan | Non-negotiable on every listing |
+| Listing media | Pro photographer w/ drone + **Matterport or Zillow 3D Home** + floor plan | Non-negotiable on every listing, including every finished flip |
+| Deal Board and project tracker | **Google Sheets** (`Deal Board`, one `Project Tracker` per flip) | Feeds Z-12, Z-15, Z-16 |
 | Scheduling | **Calendly** (or Command's booking link) | One link for consults, one for showings |
 | E-sign / transaction | **DocuSign via Command Opportunities** | |
 | VA task board & SOP videos | **Command Tasks** + **Loom** | Trello/Notion are fine if VA prefers |
@@ -42,7 +44,7 @@ Assumptions we are working under (change here if wrong):
 ## Command contact tags (exact spelling)
 
 Type (exactly one per contact):
-- `Buyer` `Seller` `Investor` `Past Client` `Sphere` `Vendor` `Agent-Referral`
+- `Buyer` `Seller` `Investor` `Past Client` `Sphere` `Vendor` `Agent-Referral` `Deal-Source` (wholesalers, attorneys, contractors, lenders who send deals)
 
 Relationship (MREA database rule — exactly one per contact):
 - `Met` (they know you) → gets the **33 Touch**
@@ -55,7 +57,12 @@ Source (exactly one, set at creation, never changed):
 - `Src-Website` `Src-Social` `Src-Referral` `Src-Sphere` `Src-OpenHouse` `Src-Sign` `Src-Paid` `Src-Investor-List` `Src-Event`
 
 Program / plan tags (added by SmartPlans, used for reporting):
-- `8x8-Active` `33-Touch` `12-Direct` `Seller-Nurture` `Buyer-Nurture` `Investor-Deal-Alerts` `Past-Client-Program`
+- `8x8-Active` `33-Touch` `12-Direct` `Seller-Nurture` `Buyer-Nurture` `Capital-Partner` `Past-Client-Program`
+
+Capital partner tier (exactly one per `Capital-Partner`, set by Charles):
+- `Tier-1` = proof of funds on file, decides within 48 hours, gets first look
+- `Tier-2` = onboarded, slower or smaller checks, sees deals after the 48-hour window
+- `Tier-3` = interested, not yet onboarded, gets the monthly deal recap only
 
 Lead temperature (used by the Lead Response GPT and the VA):
 - `A` = wants to transact in 0–30 days
@@ -68,7 +75,9 @@ Seller pipeline: `Cultivate → Appointment Set → Appointment Met → Listing 
 
 Buyer pipeline: `Cultivate → Consult Set → Consult Met → Buyer Agreement Signed → Showing → Offer Written → Under Contract → Closed`
 
-Investor pipeline: `Cultivate → Criteria Call → Deal Alerts On → Analyzing Deal → Offer Written → Under Contract → Closed → Repeat`
+Investor (Capital Partner) pipeline: `Cultivate → Criteria Call → Partner Onboarded → Deal Presented → Deal Committed → Acquisition Under Contract → Rehab → Listed → Sold → Repeat`
+
+Deals themselves (properties, before a partner is attached) live on the **Deal Board** Google Sheet with statuses: `Lead → Underwriting → Offer → Under Contract → Funded → Rehab → Listed → Sold → Passed`. See `07-INVESTOR-SYSTEM/deal-sourcing-engine.md`.
 
 ## SmartPlan names (exact)
 
@@ -80,7 +89,7 @@ Investor pipeline: `Cultivate → Criteria Call → Deal Alerts On → Analyzing
 - `SP-Seller Under Contract`
 - `SP-Buyer Nurture`
 - `SP-Buyer Under Contract`
-- `SP-Investor Deal Alerts`
+- `SP-Capital Partner Program`
 - `SP-Past Client Program`
 - `SP-Speed to Lead` (first 10 days for any web/social lead)
 
@@ -90,7 +99,7 @@ Investor pipeline: `Cultivate → Criteria Call → Deal Alerts On → Analyzing
 2. `CB Listing Marketer` — turns a listing intake form into the full marketing kit
 3. `CB Seller Concierge` — pre-listing, pricing conversation, weekly seller update drafts
 4. `CB Buyer Concierge` — buyer consult prep, showing itineraries, offer strategy notes
-5. `CB Investor Analyst` — deal analysis, rental comps, investor updates
+5. `CB Investor Analyst` — fix & flip underwriting, Deal Memo package, partner matching, weekly project updates
 6. `CB Ops Manager` — VA SOP writer, weekly scorecard summary, hiring and time blocking
 
 Rule: **ChatGPT drafts, a human approves, Command sends.** Nothing goes to a client without a human (Charles or the VA) reading it.
@@ -112,6 +121,8 @@ Rule: **ChatGPT drafts, a human approves, Command sends.** Nothing goes to a cli
 3. Every active buyer gets a **showing itinerary the night before** and a **recap the same evening**.
 4. Every listing launches with: pro photos, drone, video walkthrough, 3D tour, floor plan, single-property page, 5-stage social sequence, and an email blast to the database.
 5. Every closed client enters `SP-Past Client Program` the day of closing.
+6. Every capital partner gets a **written Project Update every Friday** while a deal is in Rehab, and a **profit distribution statement within 5 business days** of the resale closing.
+7. No return is ever stated as guaranteed. Every deal document carries the estimates disclaimer and "terms per attorney-drafted agreement".
 
 ## Placeholders used across docs
 

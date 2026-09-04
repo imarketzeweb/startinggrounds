@@ -29,7 +29,10 @@ Opportunity created in the right pipeline (Seller / Buyer / Investor)
         ├── Seller: pre-listing packet → consult → listing signed → CB Listing Marketer builds the kit
         │            → Maximum Exposure launch → 5-stage social → Monday reports → contract → close
         ├── Buyer:  consult packet → consult → agreement → itineraries + recaps → offer → contract → close
-        └── Investor: criteria call → buy box → biweekly deal alerts (CB Investor Analyst) → deal → close → repeat
+        └── Capital partner: criteria call → profile + tier → Deal Memo (CB Investor Analyst) → 48h first look
+                     → funded → rehab (Friday updates) → resale through the listing machine → distribution → repeat
+
+Deal sourcing runs alongside: MLS as-is/aged, wholesalers, absentee-owner mail, driving for dollars → Deal Board → underwriting → Deal Memo
         │
         ▼
 Closed → Past Client Program → 33 Touch forever → repeat and referral business
@@ -51,6 +54,7 @@ Everyone who is not yet a deal is on a program: **8x8** (new), **33 Touch** (Met
 - Every buyer gets a showing itinerary the night before and a recap that evening.
 - Every under-contract client gets a plain-language milestone message before each milestone.
 - Every closed client gets a gift, a review request, and stays on the program for life.
+- Every capital partner reviews a Deal Memo, says yes, and then only receives: a Friday Project Update every week, milestone texts, Monday reports during resale, and a distribution statement within 5 business days. They never find, analyze, manage, or sell anything.
 
 ## Where things live
 
@@ -62,7 +66,7 @@ Everyone who is not yet a deal is on a program: **8x8** (new), **33 Touch** (Met
 | Zapier specs | `04-AUTOMATIONS/zaps` |
 | Seller system and listing marketing | `05-SELLER-SYSTEM` |
 | Buyer system | `06-BUYER-SYSTEM` |
-| Investor system | `07-INVESTOR-SYSTEM` |
+| Fix & flip capital partner program (deal sourcing, underwriting, Deal Memo, project management) | `07-INVESTOR-SYSTEM` |
 | Website funnel and copy | `08-WEBSITE-FUNNEL` |
 | VA role, checklists, SOPs | `09-VA-PLAYBOOK` |
 | YouTube (later) | `11-YOUTUBE-LATER` |

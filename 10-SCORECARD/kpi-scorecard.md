@@ -38,6 +38,14 @@ MREA logic: **activities → appointments → contracts → closings → money.*
 | 23 | Online views per active listing (Zillow + Realtor.com + Redfin) | – | Portal dashboards |
 | 24 | Monday seller reports sent by 3pm | 100% | VA |
 | 25 | Average days on market (closed this quarter) vs market average | below market | MLS |
+| **Deal engine (capital partner program)** | | | |
+| 35 | Candidates added to the Deal Board | 20 | Deal Board |
+| 36 | Deals underwritten / offers written | 3 / 1 | Deal Board |
+| 37 | Deal Memos presented to partners | 1 per month | Deal Board `Memo approved` |
+| 38 | Deals funded | 1 per 1–2 months | Investor pipeline `Deal Committed` |
+| 39 | Partners onboarded (Tier-1 / Tier-2 / Tier-3) | +1 per month | Command tags |
+| 40 | Friday Project Updates sent by 3pm | 100% | VA |
+| 41 | Active projects: budget variance % / schedule variance days | ≤ 5% / ≤ 7 | Project Trackers |
 | **Money** | | | |
 | 26 | Closed sides this week | 0.9 | Pipelines |
 | 27 | Closed GCI this week | $8,000 | Closing statements |

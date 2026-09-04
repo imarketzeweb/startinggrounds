@@ -6,13 +6,13 @@ Every contact must have these five facts set. The VA's `SOP-02` audits this week
 
 | Fact | Where in Command | Allowed values | Set by |
 |---|---|---|---|
-| **Type** | Tag | `Buyer` `Seller` `Investor` `Past Client` `Sphere` `Vendor` `Agent-Referral` | Zap or VA at creation; Charles may change after a conversation |
+| **Type** | Tag | `Buyer` `Seller` `Investor` `Past Client` `Sphere` `Vendor` `Agent-Referral` `Deal-Source` | Zap or VA at creation; Charles may change after a conversation |
 | **Relationship** | Tag | `Met` or `Haven't Met` | Charles decides (default `Haven't Met` for web/social leads until a real conversation happens) |
 | **Status** | Tag | `New-Lead` `Nurture` `Hot` `Active` `Under-Contract` `Closed` `Dead` | Zap on entry (`New-Lead`), then Charles/VA as it progresses |
 | **Source** | Tag + Command's Lead Source field | `Src-Website` `Src-Social` `Src-Referral` `Src-Sphere` `Src-OpenHouse` `Src-Sign` `Src-Paid` `Src-Investor-List` `Src-Event` | Set once at creation, never changed |
 | **Temperature** | Tag | `A` (0–30 days) `B` (30–90 days) `C` (90+ / unsure) | Charles after first conversation; `CB Lead Responder` suggests |
 
-Program tags are added and removed by SmartPlans and reported on: `8x8-Active` `33-Touch` `12-Direct` `Seller-Nurture` `Buyer-Nurture` `Investor-Deal-Alerts` `Past-Client-Program`.
+Program tags are added and removed by SmartPlans and reported on: `8x8-Active` `33-Touch` `12-Direct` `Seller-Nurture` `Buyer-Nurture` `Capital-Partner` `Past-Client-Program`. Capital partners also carry exactly one tier tag: `Tier-1` `Tier-2` `Tier-3`..
 
 ## 2. Custom fields to add (verify field types in Command)
 
@@ -22,8 +22,13 @@ Program tags are added and removed by SmartPlans and reported on: `8x8-Active` `
 | Birthday | Date | 33 Touch |
 | Property Address (current home) | Text | Seller nurture, home-value updates, 12 Direct |
 | Preferred Contact Method | Pick list: Text / Call / Email | Lead Responder drafts, VA |
-| Investor Strategy | Pick list: Buy-and-hold / BRRRR / Flip / STR / Multifamily | Investor deal alerts |
-| Buy Box Summary | Text (one line: price, areas, type, min CoC) | Investor deal alerts |
+| Capital Per Deal (min / max) | Text | Partner matching (Z-12) |
+| Preferred Structure | Pick list: A Own the deal / B JV / C Private lender / Not sure | Partner matching |
+| Target Return | Text | Deal Memo matching |
+| Hold Tolerance (months) | Number | Deal Memo matching |
+| Decision Speed | Pick list: Same day / 48 hours / 1 week | Tiering |
+| Proof of Funds Date | Date | Tier-1 eligibility |
+| Areas Yes / Areas No | Text | Partner matching |
 | Referral Partner | Text (who referred them) | Referral thank-yous |
 | Last Personal Touch | Date | Database hygiene report |
 
@@ -43,7 +48,9 @@ Movement rule: a `Haven't Met` contact becomes `Met` the day Charles has a real 
 | `Sellers Nurturing` | Type `Seller`, Status `Nurture` | Charles monthly review |
 | `Active Sellers` | Type `Seller`, Status `Active` | VA (Monday reports) |
 | `Under Contract` | Status `Under-Contract` | VA (milestones) |
-| `Investors – Alerts On` | Tag `Investor-Deal-Alerts` | VA (biweekly alert send) |
+| `Capital Partners – Tier 1` | Tag `Capital-Partner` and `Tier-1` | Z-12 Deal Alert first look |
+| `Capital Partners – All` | Tag `Capital-Partner` | Monthly recap email |
+| `Deal Sources` | Type `Deal-Source` | Charles's Thursday calls |
 | `Met – 33 Touch` | Tag `Met` and `33-Touch` | Reporting |
 | `Haven't Met – 12 Direct` | Tag `Haven't Met` and `12-Direct` | Mailer export |
 | `Hygiene: Missing Facts` | Missing any of the five facts | VA weekly |

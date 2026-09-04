@@ -35,7 +35,8 @@ MREA splits lead generation into two lanes. Charles owns prospecting (his voice,
 | 4 | Social (DMs, lead ads, comments) | `Src-Social` | Z-03 or VA manual | `SP-Speed to Lead` | Buyer/Seller |
 | 5 | Open houses | `Src-OpenHouse` | Z-04 | `SP-8x8 New Contact` | Buyer + neighbors (future sellers) |
 | 6 | Yard sign / QR / property page | `Src-Sign` | Z-05 | `SP-Speed to Lead` | Buyer |
-| 7 | Investor lists / meetups / BiggerPockets | `Src-Investor-List` | VA import | `SP-Investor Deal Alerts` | Investor |
+| 7 | Capital partners: REIA/meetups, sphere with capital, lender and attorney referrals | `Src-Investor-List` or `Src-Event` | VA import | `SP-Speed to Lead` → `SP-Capital Partner Program` | Investor (capital partner) |
+| 7b | Deal sources and distressed sellers (wholesalers, absentee-owner mail, driving for dollars) | `Src-Investor-List` + type `Deal-Source` or `Seller` | VA import | `SP-33 Touch (Met)` for sources; seller path for owners | Flip deals (see `07-INVESTOR-SYSTEM/deal-sourcing-engine.md`) |
 | 8 | Paid (Google/Meta ads) – later | `Src-Paid` | Z-03 | `SP-Speed to Lead` | Buyer/Seller |
 | 9 | Events / community | `Src-Event` | VA import | `SP-8x8 New Contact` | All |
 

@@ -1,6 +1,6 @@
 # Charles Brewer Real Estate – Operating System
 
-A complete, automation-first business system for a Keller Williams agent built on Gary Keller's **The Millionaire Real Estate Agent** (MREA), run by Charles plus one Virtual Assistant, with **KW Command** as the system of record, **Zapier** as the glue, and **six ChatGPT custom GPTs** doing every first draft.
+A complete, automation-first business system for a Keller Williams agent built on Gary Keller's **The Millionaire Real Estate Agent** (MREA), run by Charles plus one Virtual Assistant, with **KW Command** as the system of record, **Zapier** as the glue, and **six ChatGPT custom GPTs** doing every first draft. It serves buyers and sellers white glove, and runs a **fix & flip capital partner program** where Charles brings the deal and partners bring the capital.
 
 > The rule that keeps it white glove: **ChatGPT drafts, a human approves, Command sends.**
 
@@ -21,7 +21,7 @@ A complete, automation-first business system for a Keller Williams agent built o
 | `04-AUTOMATIONS` | Automation map, 14 Zapier specs (Z-01..Z-14), and step-by-step copy for all 11 Command SmartPlans (8x8, 33 Touch, 12 Direct, and the rest) | VA |
 | `05-SELLER-SYSTEM` | Seller white-glove journey, pre-listing SOP and intake form, **Listing Launch Playbook (Maximum Exposure Standard)**, listing marketing kit template, social templates for the 5 listing stages, open house system, Monday seller report | Charles + VA |
 | `06-BUYER-SYSTEM` | Buyer journey, consultation script and needs analysis, itineraries, recaps, offer strategy | Charles + VA |
-| `07-INVESTOR-SYSTEM` | Investor journey, buy box, deal alerts, underwriting template | Charles |
+| `07-INVESTOR-SYSTEM` | **Fix & flip capital partner program**: Charles sources and underwrites the deals, partners fund them, Charles manages the project and lists the finished flip. Deal sourcing engine, partner tiers and onboarding, underwriting, Deal Memo package, Friday project updates, distribution, structures and compliance checklist | Charles |
 | `08-WEBSITE-FUNNEL` | charlesbrewer.guru funnel architecture, landing page copy, lead magnets, UTM and link-in-bio scheme | VA |
 | `09-VA-PLAYBOOK` | VA role charter, daily/weekly/monthly checklists, 10 SOPs | VA |
 | `10-SCORECARD` | KPI scorecard definition, CSV template for the Google Sheet, and the interactive `economic-model-calculator.html` | Charles + VA |
@@ -41,7 +41,7 @@ Create one ChatGPT Project ("Charles Brewer Real Estate OS"), upload the files t
 | CB Listing Marketer | Turns the Seller Intake Form into the full marketing kit: MLS remarks, video scripts, 5-stage social captions, emails, property page copy |
 | CB Seller Concierge | Pre-listing prep, pricing talk tracks, the Monday seller report narrative, milestone messages |
 | CB Buyer Concierge | Consult prep, showing itineraries, evening recaps, offer strategy memos |
-| CB Investor Analyst | Underwrites deals, produces the Deal Snapshot, writes the biweekly deal alert |
+| CB Investor Analyst | Underwrites fix & flips, produces the partner-facing Deal Memo, matches deals to partners, drafts the Friday Project Update and distribution recap |
 | CB Ops Manager | Writes SOPs, the Friday scorecard summary, time blocks, job descriptions |
 
 ## Getting started this week

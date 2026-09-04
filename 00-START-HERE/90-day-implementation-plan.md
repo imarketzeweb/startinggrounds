@@ -44,7 +44,7 @@ Build in the order that produces appointments soonest. Each week has an owner an
 | Week | Task | Owner | Done when | Reference |
 |---|---|---|---|---|
 | 9 | Buyer consult script and Needs Analysis in use; itinerary + recap templates; Z-03 (social leads) | Charles + VA | First buyer runs through the full journey | `06-BUYER-SYSTEM/` |
-| 10 | Investor buy box fields, `CB Investor Analyst` tested on 3 real properties, first deal alert sent (Z-12) | Charles + VA | Deal alert email to `Investor-Deal-Alerts` list | `07-INVESTOR-SYSTEM/` |
+| 10 | Capital Partner Profile fields in Command, Deal Board sheet live, `CB Investor Analyst` tested on 3 real properties, attorney meeting held (`structures-and-compliance.md`), first Deal Memo produced and sent to Tier-1 partners (Z-12) | Charles + VA | One Deal Memo approved and sent; 3+ partners onboarded | `07-INVESTOR-SYSTEM/` |
 | 11 | Z-10 (Friday scorecard summary), Z-11 (reviews), Z-13 (missed calls); VA SOPs 01–10 recorded as Looms | VA | Every SOP has a Loom and a Done-when | `09-VA-PLAYBOOK/sops/` |
 | 12 | Quarterly review: re-run the economic model with 90 days of actuals; decide next hire; pick 3 priorities for next quarter; YouTube go/no-go check | Charles | Updated calculator, written priorities | `01-MREA-MODELS/`, `11-YOUTUBE-LATER/` |
 
