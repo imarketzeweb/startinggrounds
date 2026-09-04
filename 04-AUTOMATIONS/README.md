@@ -33,7 +33,7 @@ flowchart LR
         DB[Deal Board sheet<br/>new deal row / Approved / Sold]
     end
 
-    W --> Z[Zapier<br/>Z-01 to Z-14]
+    W --> Z[Zapier<br/>Z-01 to Z-16]
     S --> Z
     OH --> Z
     QR --> Z
@@ -103,7 +103,7 @@ These are never automated, no matter how good the tools get:
 Charles sources fix-and-flip deals; capital partners fund them; Charles project-manages the rehab white glove and lists the finished flip. That changes three things in this folder:
 
 - Investor pipeline stages: `Cultivate → Criteria Call → Partner Onboarded → Deal Presented → Deal Committed → Acquisition Under Contract → Rehab → Listed → Sold → Repeat`. The partner is the Opportunity; the deal lives on the `Deal Board` Google Sheet (Address, Source, Asking, ARV, Rehab Est, MAO, Status).
-- Tag `Capital-Partner` (with Tier 1/2/3 and deal range on the `Capital Partners` sheet) replaces `Investor-Deal-Alerts` as the audience. `SP-Investor Deal Alerts` is renamed `SP-Capital Partner Program` and is a nurture plan, not a deal feed. Update `00-START-HERE/conventions.md` to match.
+- Tag `Capital-Partner` plus one tier tag (`Tier-1` / `Tier-2` / `Tier-3`) is the audience. The Capital Partner Profile lives in Command custom fields (see `02-COMMAND-CRM/database-architecture.md` §2) and is mirrored to a `Capital Partners` Google Sheet so Zapier can match deals to partners. `SP-Capital Partner Program` is the partner nurture plan, not a deal feed; deals go out through Z-12.
 - Deal communication is Zap-driven: Z-12 (memo, match, alert), Z-15 (Friday project updates), Z-16 (sold, distribution, repeat). Every number a partner sees is verified by Charles first.
 
 ## Integration honesty

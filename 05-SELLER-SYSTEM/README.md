@@ -112,15 +112,18 @@ After the first listing, hold a 30-minute retro in `#ops`: what took longer than
 
 ## Zaps referenced in this folder
 
-Verify each trigger and action exists in the Command Zapier integration before building. Names follow `Z-##  Trigger → Outcome`.
+Full specs live in `04-AUTOMATIONS/zaps/`. Verify each Command trigger and action exists in your Command Zapier connection before building; every spec has a fallback.
 
-| Zap | Trigger | Outcome |
+| Zap | Trigger | Outcome for the seller system |
 |---|---|---|
-| `Z-01 Website Form → Command Contact + Speed to Lead` | charlesbrewer.guru form submit | Contact created with tags, `SP-Speed to Lead` started |
-| `Z-02 New Seller Lead → #leads` | New contact with `Seller` and `New-Lead` | Slack alert with name, source, message |
-| `Z-03 Opportunity Stage Change → #listings` | Seller pipeline stage change | Slack alert with address, new stage, date |
-| `Z-04 Stage = Appointment Set → Create Drive Folder` | Stage moves to Appointment Set | Drive folder `Listings/[YYYY-MM] [Street Address]/` with five subfolders |
-| `Z-05 Open House Form → Command Contact + Src-OpenHouse + SP-8x8 New Contact` | Open house sign-in form submit | Contact created, tagged, 8x8 started |
+| `Z-01 Website Form → Command Contact + Speed to Lead` | Sell page form submit | Contact with `Seller` + `Src-Website`, `SP-Speed to Lead`, Opportunity in `Cultivate`, alert |
+| `Z-02 New Command Contact → Lead Responder Draft` | New contact | `CB Lead Responder` drafts posted to `#leads` for approval |
+| `Z-04 Open House Sign-in → Command + 8x8` | Open house sign-in | Contact with `Src-OpenHouse`, `SP-8x8 New Contact`, same-day text draft |
+| `Z-05 Sign QR Inquiry → Command + Listing Link` | Property page form | Contact with `Src-Sign`, linked to the listing Opportunity, alert |
+| `Z-06 Listing Intake Form → Drive Folder + Opportunity + Marketing Kit` | Seller Intake Form submitted | Drive folder structure, Opportunity at `Listing Signed`, `CB Listing Marketer` kit in a Google Doc, approval alert, launch task list |
+| `Z-07 Opportunity Stage Change → Social + SmartPlan + Seller Email` | Stage → Coming Soon / Active / Under Contract / Closed | Scheduled social for that stage, SmartPlan start, seller milestone email draft |
+| `Z-08 Monday 7am → Weekly Seller Report Tasks` | Monday 7:00am | One report task per Active listing |
+| `Z-09 Closed Stage → Past Client Program` | Stage → Closed | `Past Client` tag, `SP-Past Client Program`, gift and review tasks |
 
 ## Glossary
 

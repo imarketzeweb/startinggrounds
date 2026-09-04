@@ -1,7 +1,7 @@
 # SmartPlan: `SP-Capital Partner Program`
 
 ## Purpose
-The nurture plan for capital partners (formerly `SP-Investor Deal Alerts`). Charles sources fix-and-flip deals and project-manages them white glove; partners fund them. This plan onboards a new partner, shows them what a Charles deal looks like before they ever commit capital, keeps them informed monthly with the deals Charles passed on and why (which builds more trust than the deals he took), and puts a quarterly portfolio call on Charles's calendar. Deal-specific communication (Deal Alerts, Friday project updates, distribution statements) is handled by Z-12, Z-15, and Z-16, not by this plan.
+The nurture plan for capital partners. Charles sources fix-and-flip deals and project-manages them white glove; partners fund them. This plan onboards a new partner, shows them what a Charles deal looks like before they ever commit capital, keeps them informed monthly with the deals Charles passed on and why (which builds more trust than the deals he took), and puts a quarterly portfolio call on Charles's calendar. Deal-specific communication (Deal Alerts, Friday project updates, distribution statements) is handled by Z-12, Z-15, and Z-16, not by this plan.
 
 ## Entry trigger
 - Tag `Capital-Partner` added when the Investor Opportunity moves to `Partner Onboarded` after the Criteria Call (VA, SOP-02). Plan adds `Capital-Partner-Program`. Prerequisite: the partner's profile row exists in the `Capital Partners` sheet (Tier, Min Deal, Max Deal, Strategies, Markets) so Z-12 can match them.

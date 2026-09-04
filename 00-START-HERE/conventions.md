@@ -1,4 +1,4 @@
-# Conventions (read this first — every document in this repo uses these)
+# Conventions (read this first: every document in this repo uses these)
 
 This file is the single source of truth for names, tags, stages, and tools.
 If another document disagrees with this one, this one wins.
@@ -14,9 +14,9 @@ If another document disagrees with this one, this one wins.
 | Client types | Buyers, Sellers, Capital Partners (fix & flip investors) |
 | Investor model | **Deal-first.** Charles sources and underwrites fix & flip deals, capital partners fund them, Charles manages the project and lists the finished flip. He brings the deal, they bring the capital. |
 | Service promise | "White glove": every client knows what happens next, before they have to ask |
-| Model | The Millionaire Real Estate Agent (MREA) — Gary Keller |
+| Model | The Millionaire Real Estate Agent (MREA): Gary Keller |
 | Content channel now | Social media (Instagram, Facebook, TikTok, LinkedIn, Google Business Profile) |
-| Content channel later | YouTube (parked — see 11-YOUTUBE-LATER) |
+| Content channel later | YouTube (parked: see 11-YOUTUBE-LATER) |
 
 Assumptions we are working under (change here if wrong):
 - Charles is licensed in one primary market; docs say `[MARKET]` where the city/area goes.
@@ -46,7 +46,7 @@ Assumptions we are working under (change here if wrong):
 Type (exactly one per contact):
 - `Buyer` `Seller` `Investor` `Past Client` `Sphere` `Vendor` `Agent-Referral` `Deal-Source` (wholesalers, attorneys, contractors, lenders who send deals)
 
-Relationship (MREA database rule — exactly one per contact):
+Relationship (MREA database rule: exactly one per contact):
 - `Met` (they know you) → gets the **33 Touch**
 - `Haven't Met` → gets **12 Direct**
 
@@ -95,12 +95,12 @@ Deals themselves (properties, before a partner is attached) live on the **Deal B
 
 ## The six ChatGPT GPTs (exact names)
 
-1. `CB Lead Responder` — drafts first-touch replies and qualifies leads (A/B/C)
-2. `CB Listing Marketer` — turns a listing intake form into the full marketing kit
-3. `CB Seller Concierge` — pre-listing, pricing conversation, weekly seller update drafts
-4. `CB Buyer Concierge` — buyer consult prep, showing itineraries, offer strategy notes
-5. `CB Investor Analyst` — fix & flip underwriting, Deal Memo package, partner matching, weekly project updates
-6. `CB Ops Manager` — VA SOP writer, weekly scorecard summary, hiring and time blocking
+1. `CB Lead Responder`: drafts first-touch replies and qualifies leads (A/B/C)
+2. `CB Listing Marketer`: turns a listing intake form into the full marketing kit
+3. `CB Seller Concierge`: pre-listing, pricing conversation, weekly seller update drafts
+4. `CB Buyer Concierge`: buyer consult prep, showing itineraries, offer strategy notes
+5. `CB Investor Analyst`: fix & flip underwriting, Deal Memo package, partner matching, weekly project updates
+6. `CB Ops Manager`: VA SOP writer, weekly scorecard summary, hiring and time blocking
 
 Rule: **ChatGPT drafts, a human approves, Command sends.** Nothing goes to a client without a human (Charles or the VA) reading it.
 
